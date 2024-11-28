@@ -1,0 +1,83 @@
+.aboutme-contant{
+    margin-left: 3%;
+    font-size: 30px;
+}
+body{
+    font-family: sans-serif;
+}
+.aboutme{
+    margin-bottom: 20px;
+}
+.aboutme-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    font-size: 30px;
+  
+}
+.aboutme-left h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.aboutme-left img{
+    width: 20%;
+}
+.aboutme-left span{
+    background: linear-gradient(90deg,#20f108 20%, #3606e4 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-size: 60px;
+   
+}
+
+.aboutme-left p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin-top: 80px;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.aboutme-btn button{
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(90deg,#a993fe 0%, #7e61e7 100%);
+    padding: 1rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    margin-top: 60px;
+}
+.aboutme-btn button:hover{
+    color: #a993fe;
+    background: black;
+    outline: 1.5px solid #a993fe;
+    
+    
+}
+@media(max-width:768px){
+    .aboutme-left{
+        margin: 20px;
+    }
+.aboutme-left h1{
+    font-size: 30px;
+}
+.aboutme-left p{
+    font-size: 30px;
+}
+}

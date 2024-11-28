@@ -1,0 +1,107 @@
+
+
+
+.container{
+    display: flex;
+  
+
+}
+.card{
+height: 300px;
+margin: 50px;
+box-shadow: 5px 5px 10px black;
+overflow: hidden;
+margin-left: 7%;
+}
+img{
+
+height: 100%;
+width: 100%;
+
+}
+.intro{
+height: 200px;
+width: 350px;
+bottom: 240px;
+padding: 6px;
+box-sizing: border-box;
+position: absolute;
+background-color: transparent;
+color: rgb(9, 9, 9);
+transition: .7s;
+}
+.website{
+
+
+font-size: 40px;
+visibility: hidden;
+text-align: center;
+
+}
+.project {
+font-size: 20px;
+margin: 20px;
+visibility: hidden;
+opacity: 0;
+text-align: center;
+margin-top: 10px;
+}
+span{
+font-weight: bold
+}
+.card:hover{
+cursor: pointer;
+}
+.card:hover .intro{
+height: 250px;
+bottom: -200px;
+margin-left: 5%;
+background:white;
+}
+.card:hover h2 {
+opacity: 1;
+visibility: visible;
+}
+.card:hover p {
+opacity: 1;
+visibility: visible;
+padding-bottom: 20px;
+
+}
+.card:hover img{
+transform: scale(1.1) rotate(-3deg);
+}
+@media (max-width:768px){
+.card{
+    height: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 10px black;
+    overflow: hidden;
+}
+
+.website{
+font-size: 200px;
+}
+.project {
+font-size: 10px;
+margin-left: 20%;
+}
+img{
+width: 50%;
+height: auto;
+}
+}
+@media(max-width:480px){
+img{
+    width: 100%;
+    height: auto;
+}
+}
+.apihead{
+    font-size: 40px;
+   
+}
+.api{
+    margin-bottom: 20%;
+    margin-top: 10%;
+}
